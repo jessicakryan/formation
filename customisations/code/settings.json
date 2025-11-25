@@ -1,66 +1,12 @@
 {
-  "workbench.colorTheme": "Gruvbox Light Hard",
-  "emmet.includeLanguages": {
-    "typescript": "typescriptreact",
-    "javascript": "javascriptreact"
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
   },
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true,
-  "spellchecker.language": "en_GB-ise",
-  "editor.bracketPairColorization.enabled": true,
-  "workbench.colorCustomizations": {
-    "[Relaxed]": {
-      "diffEditor.removedTextBackground": "#a3050056",
-      "diffEditor.insertedTextBackground": "#6a880036"
-    },
-    "[Night Owl]": {
-      "activityBar.border": "#102a44",
-      "editorGroup.border": "#102a44",
-      "sideBar.foreground": "#8BADC1",
-      "activityBar.background": "#000C1D",
-      "sideBar.border": "#102a44",
-      "sideBar.background": "#001122"
-    }
-  },
-  "emmet.syntaxProfiles": {
-    "jsx": {
-      "attr_quotes": "single"
-    }
-  },
-  "window.openFoldersInNewWindow": "on",
-  "files.autoSave": "afterDelay",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "breadcrumbs.enabled": true,
-  "workbench.preferredLightColorTheme": "Gruvbox Light Hard",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "editor.formatOnPaste": true,
-  "editor.minimap.enabled": false,
-  "editor.accessibilitySupport": "off",
-  "editor.fontSize": 17,
-  "prettier.singleQuote": true,
-  "prettier.arrowParens": "avoid",
-  "eslint.alwaysShowStatus": true,
-  "workbench.fontAliasing": "auto",
-  "editor.multiCursorModifier": "alt",
-  "gitlens.codeLens.recentChange.enabled": false,
-  "sync.gist": "f8b68097cda54831c4825edb2851c0d9",
-  "prettier.trailingComma": "es5",
-  "editor.fontLigatures": true,
-  "gitlens.codeLens.authors.enabled": false,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.formatOnType": true,
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -71,10 +17,92 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.autoDetectColorScheme": true,
-  "prettier.bracketSpacing": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "breadcrumbs.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
   "editor.fontFamily": "Dank Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "jsx": {
+      "attr_quotes": "single"
+    }
+  },
+  "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
-  "terminal.integrated.fontSize": 15,
-  "workbench.sideBar.location": "right"
+  "github.copilot.editor.enableAutoCompletions": true,
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.trailingComma": "es5",
+  "spellchecker.language": "en_GB-ise",
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1",
+    "Q_NEW_SESSION": "1"
+  },
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "terminal.integrated.fontSize": 12,
+  "window.autoDetectColorScheme": true,
+  "window.openFoldersInNewWindow": "on",
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorCustomizations": {
+    "[Base16 Tomorrow Dark]": {
+      "list.activeSelectionBackground": "#102a44",
+      "tree.indentGuidesStroke": "#ebc17a"
+    },
+    "[Catppuccin Mocha]": {
+      "tree.indentGuidesStroke": "#CBA6F7"
+    },
+    "[Halcyon]": {
+      "tree.indentGuidesStroke": "#FFCC66"
+    },
+    "[Monokai Pro (Filter Machine)]": {
+      "tree.indentGuidesStroke": "#FEEB72"
+    },
+    "[Night Owl]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "editorGroup.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1",
+      "tree.indentGuidesStroke": "#EBC38D"
+    },
+    "[Relaxed]": {
+      "diffEditor.insertedTextBackground": "#6a880036",
+      "diffEditor.removedTextBackground": "#a3050056"
+    }
+  },
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.fontAliasing": "auto",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.preferredDarkColorTheme": "Dracula Theme",
+  "workbench.preferredLightColorTheme": "Cursor Light",
+  "workbench.sideBar.location": "right",
+  "workbench.tree.indent": 10
 }
